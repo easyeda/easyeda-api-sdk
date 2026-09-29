@@ -7,11 +7,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const GITHUB_OWNER = 'easyeda';
-const GITHUB_REPO = 'pro-api-sdk';
+const GITHUB_REPO = 'easyeda-api-sdk';
 const GITHUB_BRANCH = 'master';
 
 const GITEE_OWNER = 'jlceda';
-const GITEE_REPO = 'pro-api-sdk';
+const GITEE_REPO = 'easyeda-api-sdk';
 const GITEE_BRANCH = 'master';
 
 const GITHUB_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}`;

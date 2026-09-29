@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import process from 'node:process';
 
-const GITHUB_REPO = 'easyeda/pro-api-sdk';
+const GITHUB_REPO = 'easyeda/easyeda-api-sdk';
 const GITHUB_URL = `https://github.com/${GITHUB_REPO}.git`;
 
 /**
@@ -101,10 +101,10 @@ function main() {
 
 	if (!projectName) {
 		console.log('Usage:');
-		console.log('  npx github:easyeda/pro-api-sdk <project-name>');
+		console.log('  npx github:easyeda/easyeda-api-sdk <project-name>');
 		console.log('');
 		console.log('Example:');
-		console.log('  npx github:easyeda/pro-api-sdk my-extension');
+		console.log('  npx github:easyeda/easyeda-api-sdk my-extension');
 		process.exit(1);
 	}
 

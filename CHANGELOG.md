@@ -14,7 +14,7 @@
 
 ## 新功能
 
-1. 支持 `npx github:easyeda/pro-api-sdk my-extension` 初始化环境
+1. 支持 `npx github:easyeda/easyeda-api-sdk my-extension` 初始化环境
 
 ## 变更
 
@@ -26,7 +26,7 @@
 
 ## 新功能
 
-1. 支持使用 `npm run update` 更新 pro-api-sdk 框架代码
+1. 支持使用 `npm run update` 更新 easyeda-api-sdk 框架代码
 
 # 1.4.0
 
